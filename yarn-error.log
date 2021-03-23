@@ -1,0 +1,43 @@
+Arguments: 
+  C:\laragon\bin\nodejs\node-v15.8.0-win-x64\node.exe C:\laragon\bin\nodejs\node-v15.8.0-win-x64\node_modules\yarn\bin\yarn.js add @ reduxjs / toolkit
+
+PATH: 
+  C:\Users\Admin\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Roaming\Composer\vendor\bin;;C:\laragon\bin\laragon\utils;C:\laragon\bin\mysql\mysql-5.7.24-winx64\bin;C:\laragon\bin\php\php-7.2.19-Win32-VC15-x64;C:\laragon\bin\composer;C:\laragon\bin\apache\httpd-2.4.35-win64-VC15\bin;C:\laragon\bin\redis\redis-x64-3.2.100;C:\laragon\bin\nodejs\node-v15.8.0-win-x64;C:\laragon\bin\python\python-3.6.1;C:\laragon\bin\python\python-3.6.1\Scripts;C:\laragon\bin\nginx\nginx-1.16.0;C:\laragon\bin\notepad++;C:\laragon\bin\telnet;C:\laragon\bin\ngrok;C:\laragon\bin\git\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\usr\bin;C:\laragon\bin\git\mingw64\bin;C:\laragon\bin;C:\laragon\usr\bin;C:\laragon\bin\putty;C:\laragon\bin\cmder\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\laragon\bin\nodejs\node-v15.8.0-win-x64;C:\Program Files (x86)\Technitium\TMACv6.0;C:\laragon\bin\python\python-3.9\Scripts;C:\laragon\bin\python\python-3.9;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\dotnet\;C:\Program Files\Mono\bin\;C:\Program Files (x86)\jdk-15.0.2\bin;F:\Compressed\jdk-15.0.2_windows-x64_bin\jdk-15.0.2\bin;F:\Compressed\jdk-15.0.2_windows-x64_bin\jdk-15.0.2;C:\Program Files\CodeBlocks\MinGW\bin;C:\laragon\bin;C:\laragon\bin\apache\httpd-2.4.35-win64-VC15\bin;C:\laragon\bin\composer;C:\laragon\bin\git\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\mingw64\bin;C:\laragon\bin\git\usr\bin;C:\laragon\bin\laragon\utils;C:\laragon\bin\mysql\mysql-5.7.24-winx64\bin;C:\laragon\bin\nginx\nginx-1.16.0;C:\laragon\bin\ngrok;C:\laragon\bin\notepad++;C:\laragon\bin\php\php-7.2.19-Win32-VC15-x64;C:\laragon\bin\putty;C:\laragon\bin\redis\redis-x64-3.2.100;C:\laragon\bin\telnet;C:\laragon\usr\bin;C:\Users\Admin\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\Admin\AppData\Roaming\Composer\vendor\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\laragon\bin\git\usr\bin;C:\laragon\bin\git\usr\share\vim\vim74;C:\laragon\bin\cmder\;
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.8.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ENETUNREACH 104.16.18.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16)
+
+npm manifest: 
+  {
+    "name": "my-react-app",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "react": "^17.0.0",
+      "react-dom": "^17.0.0"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-react-refresh": "^1.1.0",
+      "vite": "^2.0.0-beta.65"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
